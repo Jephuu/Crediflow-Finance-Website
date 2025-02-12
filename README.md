@@ -6,10 +6,15 @@ Crediflow Finance is a loan application platform that allows users to explore va
   **Features**
 
 ✅ Multiple loan options (Housing, Personal, Education, etc.)
+
 ✅ Loan eligibility check
+
 ✅ EMI calculator for easy repayment planning
+
 ✅ Responsive design for all devices
+
 ✅ Easy navigation with a clean user interface
+
 ✅ Real-time loan updates (Planned for future)
 
   **Technologies Used**
@@ -36,10 +41,15 @@ FontAwesome & Material UI – For modern icons and UI enhancements
   **Future Enhancements**
   
 🚀 Admin Dashboard – To manage loan applications and user data
+
 🔒 User Authentication – Secure login and account management
+
 📱 Mobile App Development – Extend the platform to mobile devices
+
 🤖 AI-Based Loan Recommendations – Suggest suitable loan options based on user profiles
+
 📢 Real-Time Alerts – Notify users about loan updates and EMI reminders
+
 
   **Contributing**
  Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements or new features.
