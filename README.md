@@ -19,11 +19,17 @@ Crediflow Finance is a loan application platform that allows users to explore va
 
   **Technologies Used**
 React.js – For building the user interface
+
 Vite – For fast development and build optimization
+
 React Router – For smooth client-side navigation
+
 Bootstrap – For responsive design and UI components
+
 JavaScript (ES6+) – For interactivity and dynamic behavior
+
 HTML5 & CSS3 – For structuring and styling the web pages
+
 FontAwesome & Material UI – For modern icons and UI enhancements
 
 **Installation & Setup**
