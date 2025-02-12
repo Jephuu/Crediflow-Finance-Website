@@ -1,0 +1,224 @@
+/* General Styling */
+.contact-page {
+  background: linear-gradient(to bottom right, #d9eaf7, #f0f9ff);
+  padding-top: 0px;
+  margin: 0;
+}
+
+/* Banner Section */
+.contact-banner {
+  position: relative;
+  height: 700px;
+  width: 100vw;
+  /* overflow: hidden; */
+  /* margin-bottom: 30px; */
+}
+
+.contact-banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+  border-radius: 8px;
+  /* margin-right: 15px; */
+  /* margin: 15px 0px; */
+  /* padding: 55px; */
+}
+
+.contact-banner-text {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+ 
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.contact-banner-text p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+/* Form Section */
+.contact-form-section {
+  padding: 50px;
+  margin: 50px auto;
+  background: linear-gradient(to bottom, #e3f2fd, #f5fafd);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+}
+
+.contact-form-section h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.contact-form textarea {
+  grid-column: span 2; /* Full width for textarea */
+  resize: none;
+  height: 100px;
+}
+
+.contact-form button {
+  grid-column: span 2; /* Full width for button */
+  background: linear-gradient(to right, #5d99cc, #4c88b2);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(to right, #4c88b2, #5d99cc);
+  transform: scale(1.05);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #5d99cc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(93, 153, 204, 0.5);
+}
+
+
+/* Contact Information Section */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #cacdc0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-item {
+  flex: 1 1 calc(50% - 20px); /* Two items per row */
+  background: #9bd1f3;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h3 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-item p {
+  color: black;
+  font-size: 14px;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+}
+
+.contact-item .icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #121110; /* Icon color */
+}
+
+.whatsapp-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe57;
+  text-decoration: underline;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-banner-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-form-section,
+  .contact-info-section,
+  .testimonials-section,
+  .faq-section {
+    padding: 20px;
+  }
+
+  .contact-form button {
+    font-size: 1rem;
+  }
+}
+
+/* Map Section */
+.map-section {
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(to bottom, #e3f2fd, #f0f9ff);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.map-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

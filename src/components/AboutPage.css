@@ -1,0 +1,283 @@
+.about-page {
+    background: linear-gradient(to bottom right, #7da5cf, #eaf6fc);
+
+}
+.about-banner {
+    position: relative;
+    padding-top:100px;
+    /* width: 100vw; */
+    /* margin: 40px 5px ; */
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+    
+  }
+  
+  .about-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 90px;
+  }
+
+
+  .about-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .about-banner-text h1 {
+    font-size: 3rem; /* Adjust font size */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+
+/* ABOUT */
+.about-crediflow {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .about-crediflow h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .about-crediflow p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+/* Vision , Our Mission , Our values */
+  .about-vision,
+  .about-mission,
+  .about-values{
+    padding: 30px 20px;
+    width: 90%;
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    background: linear-gradient(to right, #30cbbe, #6be2d6);
+  }
+  
+  .about-vision h2,
+  .about-mission h2,
+  .about-values h2{
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .about-vision p,
+  .about-mission p,
+  .about-values ul{
+    font-size: 1.3rem;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .about-values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-values li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .about-values li::before {
+    content: "✔"; /* Green tick icon */
+    color: #28a745;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+  
+/* Description */
+
+  .about-description {
+    /* padding: 40px 20px; */
+    /* max-width: 800px; */
+    /* margin: auto; */
+    margin: 40px;
+    padding: 10px 25px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: rgba(220, 157, 224, 0.9);
+
+  }
+  
+  .about-description h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .about-description p {
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about-description ul {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .about-description ul li {
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+  }
+  
+  .about-description ul li::before {
+    content: '✔';
+    color: green;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  /* Testimonials Section */
+.about-testimonials {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    border-radius: 15px;
+    margin: 30px auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .about-testimonials h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-testimonials .testimonial {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-testimonials .testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .about-testimonials .testimonial p:last-child {
+    font-weight: bold;
+    font-style: italic;
+    color: #222;
+  }
+  
+  /* Call to Action Section */
+  .about-cta {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #7da5cf, #eaf6fc);
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px auto;
+    width: 90%;
+  }
+  
+  .about-cta h2 {
+    font-size: 2.5rem;
+    color: #1a374d;
+    margin-bottom: 15px;
+  }
+  
+  .about-cta p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .about-cta .cta-button {
+    background-color: #1a374d;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-cta .cta-button:hover {
+    background-color: #406882;
+  }
+  
+  /* Meet Our Team Section */
+  .about-team {
+    padding: 50px 20px;
+    background-color: #eaf6fc;
+    text-align: center;
+    border-radius: 20px;
+    margin: 40px auto;
+    width: 90%;
+  }
+  
+  .about-team h2 {
+    font-size: 2.5rem;
+    color: #1a374d;
+    margin-bottom: 20px;
+  }
+  
+  .about-team .team-member {
+    display: inline-block;
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .about-team .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+  
+  .about-team .team-member h3 {
+    font-size: 1.5rem;
+    color: #1a374d;
+    margin-bottom: 10px;
+  }
+  
+  .about-team .team-member p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  

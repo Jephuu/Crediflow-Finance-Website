@@ -1,0 +1,64 @@
+.loan-details-section {
+    background-color: #fff;
+    width: 95%;
+    /* max-width: 600px; */
+    margin: 40px;
+   
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .button-row button {
+    flex: 1;
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #169b9d;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-row button.active,
+  .button-row button:hover {
+    background-color: #3b1ac0c4;
+    color: #fff;
+    border-color: #12ddf3;
+  }
+  
+  .details-content ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 45px;
+    color: #333;
+    display: flex;
+   
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .details-content ul li::before {
+  content: ''; /* Add a pseudo-element before each list item */
+  width: 19px;
+  height: 18px;
+  margin-right: 8px;
+  margin-left: 50px;
+  
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M9.707 16.707a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L9 14.586l7.293-7.293a1 1 0 011.414 1.414l-8 8z"></path></svg>');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-color: blue;
+  border-radius: 10px;
+  display: inline-block;
+  }
+
+  
+  

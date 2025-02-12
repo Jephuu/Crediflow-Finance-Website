@@ -1,0 +1,77 @@
+.slider-page {
+  text-align: center;
+  padding: 50px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.slider-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Ensure the slider container has a height */
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1000px; /* Adjust as per your requirement */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure proper image display */
+  border-radius: 8px;
+  display: block;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none; /* Moved before `user-select` */
+  user-select: none;
+  -webkit-touch-callout: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slider-page {
+  font-family: Arial, sans-serif;
+}
+
+.home-section {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("home-background.jpg") no-repeat center center/cover; /* Replace with your background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-section .home-background h1 {
+  color: #fff;
+  font-size: 3rem;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
+}
+
+.slider-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
